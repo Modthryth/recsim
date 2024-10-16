@@ -66,7 +66,7 @@ int outX = 5; //the number of replicates
 
 int AvailableOligomerSum = 0; //The total number of oligomers available to recombine (must be equal to or greater than RecombinableSize)
 double initpHyd = 0.0; //Rate of hydrolysis out of 1.0, the remaining difference results in recombination. Ranges from 0.2 to 0.8 in published simulations
-int cyclemax = 500000000; //Total number of cycles to run if the pool is not expected to decay. Limited by integer max , approx 2.1 x 10^9
+int cyclemax = 300000000; //Total number of cycles to run if the pool is not expected to decay. Limited by integer max , approx 2.1 x 10^9
 
 bool writeDist = true; //whether to output the distribution, takes time and generates a lot of data
 bool writeMax = false; //whether to write the tracked maximum sizes to output files
